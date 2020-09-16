@@ -14,7 +14,27 @@ img {
 
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
-  display: grid;
+  display: contents;
+}
+
+h1 {
+  position: absolute;
+  z-index: 2;
+  top: 25rem;
+  left: 1rem;
+  max-width: 14rem;
+}
+
+.pano {
+  position: relative;
+}
+
+nav ul {
+  display: flex;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
 }
 
 ul {
@@ -24,5 +44,11 @@ ul {
 }
 
 ul li a {
-  color: #000;
+  color: #fff;
+  margin: 1rem;
+}
+
+h2 {
+  color: #30658d;
+  font-family: "Patua one", serif;
 }
