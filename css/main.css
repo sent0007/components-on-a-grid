@@ -14,5 +14,15 @@ img {
 
 header {
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
-  display: contents;
+  display: grid;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Patua one", serif;
+  font-size: 2rem;
+}
+
+ul li a {
+  color: #000;
 }
