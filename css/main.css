@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  background-color: #f2f1ed;
+}
+
 img {
   width: 100%;
 }
@@ -20,20 +24,22 @@ header {
 h1 {
   position: absolute;
   z-index: 2;
-  top: 25rem;
+  top: 26rem;
   left: 1rem;
   max-width: 14rem;
 }
 
 .pano {
   position: relative;
+  margin-bottom: 1rem;
 }
 
 nav ul {
   display: flex;
   position: absolute;
-  top: 1rem;
+  top: .5rem;
   right: 1rem;
+  margin-right: 1em;
 
 }
 
@@ -46,6 +52,15 @@ ul {
 ul li a {
   color: #fff;
   margin: 1rem;
+}
+
+body main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+figure {
+  margin: 0;
 }
 
 h2 {
