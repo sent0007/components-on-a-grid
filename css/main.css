@@ -22,7 +22,6 @@ header {
 }
 
 h1 {
-  position: absolute;
   z-index: 2;
   top: 26rem;
   left: 1rem;
@@ -30,13 +29,11 @@ h1 {
 }
 
 .pano {
-  position: relative;
   margin-bottom: 1rem;
 }
 
 nav ul {
   display: flex;
-  position: absolute;
   top: .5rem;
   right: 1rem;
   margin-right: 1em;
@@ -45,7 +42,7 @@ nav ul {
 
 ul {
   list-style-type: none;
-  font-family: "Patua one", serif;
+  font-family: "Patua one", sans-serif;
   font-size: 2rem;
 }
 
@@ -65,5 +62,5 @@ figure {
 
 h2 {
   color: #30658d;
-  font-family: "Patua one", serif;
+  font-family: "Patua one", sans-serif;
 }
