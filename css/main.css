@@ -23,7 +23,7 @@ img {
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 15rem;
+  grid-template-rows: 1fr 9rem;
 
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
 }
@@ -35,6 +35,7 @@ h1 {
   max-width: 14rem;
   grid-column: 1;
   grid-row: 2;
+  padding-left: 1rem;
 }
 
 .pano {
@@ -64,6 +65,11 @@ ul {
 ul li a {
   color: #fff;
   margin: 1rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 figure {
