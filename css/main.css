@@ -9,16 +9,23 @@ html {
 }
 
 body {
+  display: grid;
   background-color: #f2f1ed;
+  margin: 1em;
 }
 
 img {
-  width: 100%;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  max-width: 100%;
 }
 
 header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 15rem;
+
   /* Remove the <header> box and allow us to directly apply header’s children to the grid. */
-  display: contents;
 }
 
 h1 {
@@ -26,10 +33,18 @@ h1 {
   top: 26rem;
   left: 1rem;
   max-width: 14rem;
+  grid-column: 1;
+  grid-row: 2;
 }
 
 .pano {
   margin-bottom: 1rem;
+}
+
+nav {
+  grid-column: 2;
+  grid-row: 1;
+
 }
 
 nav ul {
@@ -49,11 +64,6 @@ ul {
 ul li a {
   color: #fff;
   margin: 1rem;
-}
-
-body main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 figure {
