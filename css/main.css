@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font: normal 100%/1.5 "Patua One", sans-serif;
 }
 
 *,
@@ -10,7 +11,7 @@ html {
 
 body {
   background-color: #f2f1ed;
-  margin: 1rem;
+  margin: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -29,17 +30,17 @@ header {
 
 h1 {
   z-index: 2;
-  top: 26rem;
   left: 1rem;
   max-width: 14rem;
   padding-left: 1rem;
   grid-area: header;
+  align-self: end;
 }
 
 .pano {
   margin-bottom: 1rem;
   grid-area: header;
-  max-width: 100%;
+  width: 100%;
 }
 
 nav {
@@ -59,7 +60,6 @@ nav ul {
 
 ul {
   list-style-type: none;
-  font-family: "Patua one", sans-serif;
   font-size: 2rem;
 }
 
@@ -72,10 +72,9 @@ main {
   grid-area: main;
 }
 
-main:nth-child(1) {
+.main:first-child {
   border: 10px solid green;
 }
-
 
 figure {
   margin: 0;
@@ -83,8 +82,14 @@ figure {
 
 figure img {
   max-width: 100%;
+}
 
 h2 {
   color: #30658d;
-  font-family: "Patua one", sans-serif;
+  margin-bottom: 0;
+}
+
+p {
+  font-family: "Georgia", serif;
+  margin: 0;
 }
