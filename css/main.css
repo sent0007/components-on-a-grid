@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Patua One", sans-serif;
+  font-family: Georgia, serif;
   line-height: 1.5;
   margin: 1rem;
 }
@@ -51,6 +51,7 @@ nav {
   grid-area: header;
   grid-column: 2;
   grid-row: 1;
+  font-family: "Patua One", sans-serif;
 }
 
 nav ul {
@@ -100,6 +101,8 @@ figure img {
 h2 {
   color: #30658d;
   margin-bottom: 0;
+  font-family: "Patua One", sans-serif;
+
 }
 
 p {
